@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.footer {
+  border-top: 1px solid #ddd;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* Ensure all carousel images have the same size */
+.carousel img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.carousel img:hover {
+  transform: scale(1.1); /* Zoom in effect */
+}
+
+/* Product card styling to ensure uniform size */
+.product-card {
+  height: 100%;
+}
+
+.product-image {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.product-image:hover {
+  transform: scale(1.1); /* Zoom in effect */
+}
+
+/* Additional Info Section Styling */
+.additional-info {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.info-box {
+  padding: 20px;
+}
+
+.info-icon {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.info-box h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.info-box p {
+  color: #666;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,17 @@
+/* src/pages/CartPage.css */
+.cart-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cart-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
