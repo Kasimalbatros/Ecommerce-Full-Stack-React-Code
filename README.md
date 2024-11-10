@@ -1,3 +1,33 @@
+Structure to Follow
+
+my-app/
+├── public/
+│   ├── images/
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── image3.jpg
+├── src/
+│   ├── App.js
+│   ├── components/
+│   │   ├── Header.js
+│   │   └── Footer.js
+│   ├── pages/
+│   │   ├── HomePage.js
+│   │   ├── CartPage.js
+│   │   ├── CollectionPage.js  <-- Place CollectionPage here
+│   │   ├── AboutPage.js
+│   │   ├── ContactPage.js
+│   │   └── SignUpPage.js
+│   └── App.css![image](https://github.com/user-attachments/assets/f517f65d-d7dd-4911-8744-53abfed01544)
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
